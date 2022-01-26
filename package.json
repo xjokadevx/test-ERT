@@ -17,7 +17,7 @@
     "test": "jest"
   },
   "lint-staged": {
-    "src/**/*.{ts, tsx}": [
+    "**/*.ts?(x)": [
       "npm run format"
     ]
   },
