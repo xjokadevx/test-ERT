@@ -138,7 +138,8 @@
             "repository": {
               "owner": "josekabo",
               "name": "test-ERT"
-            }
+            },
+            "prerelease": true
           }
         }
       ]
