@@ -31,7 +31,6 @@ const Home: React.FC<{}> = () => {
       },
     ],
   });
-  const apaa = 10;
   const toSave = () =>
     Packer.toBlob(doc).then(blob => {
       // saveAs from FileSaver will download the file
