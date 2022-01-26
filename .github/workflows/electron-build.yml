@@ -19,9 +19,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+      - run: npm ci
       - run: npm run format
       - run: npm run make
-      
+
   build_on_win:
     runs-on: windows-latest
     strategy:
@@ -35,5 +36,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+      - run: npm ci
       - run: npm run format
       - run: npm run make
