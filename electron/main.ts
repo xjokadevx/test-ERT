@@ -1,7 +1,7 @@
 import { app, BrowserWindow, ipcMain } from 'electron';
 require('update-electron-app')({
   repo: 'JoseKabo/test-ERT',
-  updateInterval: '1 minute',
+  updateInterval: '1 minutes',
   logger: require('electron-log'),
 });
 

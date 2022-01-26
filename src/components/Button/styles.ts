@@ -1,18 +1,18 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.button`
   height: 42px;
   padding: 0 24px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background: #8257e6;
+  background: #8287e6;
   border-radius: 8px;
   border: 0;
 
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
 
@@ -25,4 +25,4 @@ export const Container = styled.button`
   &:active {
     filter: brightness(0.7);
   }
-`
+`;
